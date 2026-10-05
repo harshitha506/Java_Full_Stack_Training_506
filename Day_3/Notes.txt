@@ -1,0 +1,37 @@
+List: Used to dispaly items in organisede way
+Types:
+1.Ordered list <ol>
+    Attributes:
+    1.start ->numbers
+    2.type ->i,1,a,A,i
+    3.reversed
+    <li> tag is used to add elements 
+
+    Short cut:
+2.Unordered list <ul>:
+    <ul></ul> 
+    Attributes: 
+    type -> circle,square,none, disc,
+
+3.description/definiton list:
+    <dl></dl> - represents defintion list
+    <dt></dt> -represents definition term
+    <dd></dd> -represents  defintion term
+
+4.Nested list:List inside another list
+
+--------------------------------------------------------------
+Forms:Used to collect user information digitally
+Tags: 
+    <form></form>
+    <fieldset></fieldset> - for form border
+    <legend></legend> -for form description
+    <label></label>
+    <input> - size is fixed 
+        type:image,test,url,checkbox,year,time,color,search,hidden,datetime-local,email,file,tel,range,week,
+    <select></select> -><option></option>
+    <button></button>
+    <textarea></textarea> -to take large test from user,size is dynamic 
+
+
+    
