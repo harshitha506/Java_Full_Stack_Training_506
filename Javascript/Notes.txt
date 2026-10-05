@@ -1,0 +1,160 @@
+30-09-2026
+--------------------------------------------------------------------------------------------
+Javascript:
+----------
+    ->Javascript is a scripting language as well as programming language
+    ->JS is a Dynamically typed programming
+    ->JS having single Call Stack
+    
+
+Uses:
+    ->using Javascript we can build dynamic web applications
+    ->using JS we can add functionalities to web pages
+    ->here we can achieve DOM(Document Object Model) functionalities using that we can manipulate HTML and CSS
+    ->we can fetch data from the server(API's) abd also send data to server(API's)
+
+
+Initial name of JS is mocha introduced in 1995 -> net scope(browser company)
+    |
+renamed as live scrip in the same year
+    |
+then as Javascript
+    |
+ECMA-European Computing Manufacturing Association - added new feature - > release first version -> ES1(ECMA script version)
+
+Stable version -> ES6
+
+present version -> ES16
+
+
+Implements:
+----------
+    1.Inline JS
+    2.Internal JS
+    3.External JS
+
+Assignment:
+        Write and come 15 browser names and their respective engine names
+        Note depricated Keywords
+
+Tokens:
+-------
+    ->Tokens are the smallest units in JS code
+
+    Types:
+        1.Identifiers
+            ->names given to the code
+            ->In the place of Identifiers we can't use Keywords
+            ->Ex: variable names , clas names , function names(method names)
+        2.Keywords
+            ->Predefined words which have its own meaning 
+            ->In JS total 66 Keywords
+            ->EX: class,let,new,async
+        3.Literals
+        4.Operators
+            ->used to perform operations
+        5.Separators
+            Ex:. , , "" , '' , ; , {} , () , [] , <>
+        6.Comments
+            ->single line Comments //
+            ->multi line Comments /*
+
+
+    DataTypes:
+    ----------
+        ->DataTypes represent the what type of data we are storing on that variable
+
+        Types:
+            1.Primitive DataTypes
+                i.number
+                ii.string
+                iii.boolean
+                iv.null
+                v.undefine
+                vi.symbol
+                vii.bigint
+
+             2.Non Primitive DataTypes
+                i.Arrays
+                    ->Arrays are the linear data structure used to store collection of homogenous or heterogenous data 
+                
+                    In JS Arrays declaration:
+                    ------------------------
+                            1.Literal way
+                            2.using new Keyword(object)
+
+
+                    01-10-202
+                    ----------------------------------------------------------------------
+
+                    Loops:
+                    -----
+                    1.for loop
+                    2.while loop
+                    3.do while loop
+                    4.for-of loop(Arrays or Strings) -> only values
+                    5.for-in loop(Arrays or Strings) -> only index's
+                    6.for-Each loop
+
+
+                    7.map()
+                    8.filter()
+                    9.reduce()
+                    
+
+
+                ii.functions 
+                    ->Functions are the block of statements which will get execute when ever it called
+
+                    Note:
+                        ->Using functions we can perform code reusability
+                        ->And also increase code readability
+
+                    Types:
+                    -----
+                        1.User Define functions
+                        2.PreDefine functions
+
+                    
+                    In JS we can declare functions in many ways(classifications)
+                    ------------------------------------------------------------
+
+                        1.Anonymous function
+                        2.normal/named function
+                        3.Functional expression
+                        4.first class function
+                        5.immediate invoking function(IIF/Self calling function)
+                        6.Arrow function(ES6)
+                        7.Nested function
+                        8.Higher order function
+                        9.call back function
+                        10.generator function
+
+ 
+                iii.Objects (null is an Object)
+                    ->Objects are the real time entities in used to store data in the form of kay and value pair
+                    In JS Objects declaration:
+                    ------------------------
+                            1.Literal way
+                                Syntax: 
+                                    variableType variableName={
+                                                key1:value,
+                                                key2:value
+                                            }
+                            2.using new Keyword(object)
+                                Syntax: 
+                                    variableType variableName= new Object({
+                                                key1:value,
+                                                key2:value
+                                            })
+
+
+== ----> only checks the values
+=== ----> checks both values and data type
+console.log(true==1)  -> outputs as true
+console.log(true===1)  -> outputs as false
+
+
+
+
+
