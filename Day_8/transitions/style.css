@@ -1,0 +1,18 @@
+div {
+    height: 250px;
+    width: 200px;
+    background-color: green;
+    /*transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out; 
+    transition-delay: 2s;*/
+    transition: all 2s linear 2s;
+}
+div:hover{
+    background-color: blue;
+
+}
+div:active {
+    background-color: red;
+}
+

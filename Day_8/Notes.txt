@@ -1,0 +1,30 @@
+Transitions in CSS:
+------------------
+    -> Transitions enable you to define the transition between two states of an element
+            transition-Prorperty : property you want to transition(font-size,width)
+            transition-duration : 2s / 4ms...
+            transition-timing-function : ease-in/ease-out/linear
+            transition-delay : 2s/4ms....
+
+Transform in CSS:
+-----------------
+    -> Used to apply 2D & 3D transformations to an element
+    -------> rotate
+                transform: rotate(45deg);
+
+    -------> scale
+                transform: scale(2);
+                transform: scale(0.5);
+                transform: scale(1,2);
+
+                transform: scaleX(0.5);
+                transform: scaleY(0.5);
+
+    -------> translate
+                transform: translate(20px);
+                transform: translate(20px,50px);
+
+                transform: translateX(20px);
+                transform: translateY(20px);
+    -------> skew
+                transform: skew(30deg);
